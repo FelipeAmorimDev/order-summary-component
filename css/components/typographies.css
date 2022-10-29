@@ -1,0 +1,25 @@
+/* font-family: 'Red Hat Display', sans-serif; */
+
+.font-1-xxl {
+  font-family: 'Red Hat Display';
+  font-weight: 900;
+  font-size: 1.75rem;
+}
+
+.font-1-xl {
+  font-family: 'Red Hat Display';
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.font-1-x {
+  font-family: 'Red Hat Display';
+  font-weight: 900;
+  font-size: 0.94rem;
+}
+
+.font-1-l {
+  font-family: 'Red Hat Display';
+  font-weight: 500;
+  font-size: 1rem;
+}

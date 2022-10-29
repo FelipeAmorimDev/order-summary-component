@@ -1,0 +1,89 @@
+.main{
+  max-width: 451px;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border-radius: 20px;
+  overflow: hidden;
+  
+}
+
+.bg-img{
+  background-image: url("../../images/illustration-hero.svg");
+  background-position: center;
+  height: 220px;
+}
+.card-content{
+  text-align: center;
+  background-color: white;
+  padding: 20px 50px;
+  display: grid;
+  gap: 20px;
+}
+
+.card-content p{
+ max-width: 30ch;
+ line-height: 1.6;
+ margin: 0 auto;
+}
+
+.plan-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color-0);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.plan-content{
+  display: flex;
+ 
+  gap: 20px;
+}
+
+.card-buttons [type="submit"]{
+  border-radius: 10px;
+  border: none;
+  display: block;
+  width: 100%;
+  padding: 12px 20px;
+  margin-bottom: 20px;
+}
+
+.card-buttons [type="submit"]:first-child{
+  cursor: pointer;
+ background-color: var(--color-p2);
+ color:white;
+ box-shadow: 2px 20px 16px rgba(0, 0, 255, 0.137);
+}
+
+.card-buttons [type="submit"]:first-child:hover{
+  opacity: .8;
+}
+
+
+.card-buttons [type="submit"]:last-child{
+  cursor: pointer;
+  background-color:transparent;
+  color:var(--color-1);
+ }
+ .card-buttons [type="submit"]:last-child:hover{
+  color: var(--color-2);
+}
+.plan-container a:hover{
+  opacity: .7;
+}
+
+@media (max-width:600px){
+  .card-content{
+  padding: 20px;
+  }
+  .main{
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+    
+  }
+}

@@ -1,0 +1,17 @@
+body{
+  margin: 20px;
+  background-color: var(--color-p1);
+}
+
+h1,h2,p{
+  margin: 0px;
+  padding: 0px;
+}
+
+.mb2{
+  margin-bottom: 20px;
+}
+
+a{
+  color:inherit
+}
